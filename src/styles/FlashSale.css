@@ -1,0 +1,51 @@
+.flash-sale {
+    margin: 20px 0;
+    padding: 0 20px;
+  }
+  
+  .timer {
+    color: red;
+    margin-bottom: 10px;
+  }
+  
+  .products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .product {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    flex: 1 1 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .product img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .product:hover {
+    transform: scale(1.05);
+  }
+  
+  .product-info {
+    margin-top: 10px;
+    text-align: left;
+  }
+  
+  .product-name {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .product-price {
+    color: #ff4d4d;
+    font-size: 18px;
+  }
+  
